@@ -28,8 +28,8 @@ jtam_pop<- readOGR("F:/R_16-9-59/r_day/shp/tam_pop.geojson", "OGRGeoJSON")
 
 #palette shape file
 #pal<- colorNumeric(
-  palette="Blues",
-  domain = j_prev_tam$pop57)
+ # palette="Blues",
+  #domain = j_prev_tam$pop57)
 
 #qpal<- colorQuantile("RdPu", jtam_pop$pop57, n=7)
 bpal <- colorBin("RdPu", jtam_pop$pop57, 7, pretty = FALSE)
